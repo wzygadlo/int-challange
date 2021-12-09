@@ -3,6 +3,4 @@ services:
   web:
     ports:
       - "80:80"
-    volumes:
-      - .:/usr/share/nginx/html:ro
-    image: nginx:latest
+    image: "us-west2-docker.pkg.dev/ledn-test/ledn-repo/ledn-nginx:1.0"
